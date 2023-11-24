@@ -15,3 +15,14 @@
   * Look at the original source code in the root directory.
   * File: `1-print_square.js`
 
++ Task 2. **Sort**
+  * Fix sort integer arguments in ascending order.
+    * The original source code is in root directory and the error was in line `23`.
+    * The problem is we should insert integer in his right position by doing this:
+      ```ruby
+      result.insert(i, i_arg)
+      
+      # And add this at the last end keyword and befor puts result
+      result.sort!
+      ```
+
